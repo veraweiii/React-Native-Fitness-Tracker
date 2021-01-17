@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Fitness Tracker",
+    "slug": "native",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF8290"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {
+        "UIUserInterfaceStyle": "Light"
+      },
+      "userInterfaceStyle": "light",
+      "supportsTablet": true
+    }
+  }
+}
